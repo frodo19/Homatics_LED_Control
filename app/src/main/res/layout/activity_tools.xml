@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <com.google.android.material.navigationrail.NavigationRailView
+        android:id="@+id/navigation_rail"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menuGravity="center"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_background"
+        app:headerLayout="@layout/nav_header"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/nav_menu">
+
+    </com.google.android.material.navigationrail.NavigationRailView>
+
+    <LinearLayout
+        android:id="@+id/centeredLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/homeDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/description_home" />
+
+        <TextView
+            android:id="@+id/activeLedDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/description_active_led" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/activeLedOnOff"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeWidth="1.5dp"
+            android:textAllCaps="true"
+            android:visibility="gone"
+            android:text="@string/led" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/activeLedColor"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeWidth="1.5dp"
+            android:textAllCaps="true"
+            android:visibility="gone"
+            android:text="@string/led_color" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/activeLedBrightness"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeWidth="1.5dp"
+            android:textAllCaps="true"
+            android:visibility="gone"
+            android:text="@string/led_brightness" />
+
+        <TextView
+            android:id="@+id/standbyLedDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/description_standby_led" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/standbyLedOnOff"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeWidth="1.5dp"
+            android:textAllCaps="true"
+            android:visibility="gone"
+            android:text="@string/led" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/standbyLedColor"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeWidth="1.5dp"
+            android:textAllCaps="true"
+            android:visibility="gone"
+            android:text="@string/led_color" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/standbyLedBrightness"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeWidth="1.5dp"
+            android:textAllCaps="true"
+            android:visibility="gone"
+            android:text="@string/led_brightness" />
+
+        <TextView
+            android:id="@+id/rebootDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/description_reboot" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/rebootButton"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeWidth="1.5dp"
+            android:textAllCaps="true"
+            android:visibility="gone"
+            android:text="@string/reboot" />
+
+    </LinearLayout>
+
+</RelativeLayout>

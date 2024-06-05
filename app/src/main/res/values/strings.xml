@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false" >Homatics LED Control</string>
+    <string name="led" translatable="false" >LED</string>
+    <string name="control" translatable="false" >Control</string>
+    <string name="enable_usb_debugging_first">Enable USB debugging first in the developer options.</string>
+    <string name="home">Home</string>
+    <string name="description_home">Important information:\n\n1. Nothing must be changed to the LED in the Android system settings, otherwise it will behave abnormally.\n2. A restart is required after every change to the device\'s LED.</string>
+    <string name="description_active_led">The LED settings can be made here when the device is active.</string>
+    <string name="description_standby_led">The LED settings can be made here when the device is in standby.</string>
+    <string name="description_reboot">After making the settings on the LED, press this button to restart the device.</string>
+    <string name="led_color">LED color</string>
+    <string name="led_brightness">LED brightness</string>
+    <string name="reboot">Reboot</string>
+    <string name="active_led">Active LED</string>
+    <string name="standby_led">Standby LED</string>
+    <string name="cyan">Cyan</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="purple">Purple</string>
+    <string name="select_led_color">Select LED color</string>
+    <string name="select_led_on_off">LED on or off</string>
+    <string name="select_led_brightness">Select LED brightness</string>
+    <string name="led_is_now_set_to_purple_led">LED is now set to Purple.</string>
+    <string name="led_is_now_set_to_green_led">LED is now set to Green.</string>
+    <string name="led_is_now_set_to_blue_led">LED is now set to Blue.</string>
+    <string name="led_is_now_set_to_red_led">LED is now set to Red.</string>
+    <string name="led_is_now_set_to_cyan_led">LED is now set to Cyan.</string>
+    <string name="led_is_now_off">The LED is now off.</string>
+    <string name="led_is_now_on">The LED is now on.</string>
+    <string name="the_device_will_now_restart">The device will now restart.</string>
+    <string name="brightness_of_led_has_been_set_to">The brightness of the LED has been set to %1$d</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+</resources>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_24dp" />
+    <item
+        android:id="@+id/activeLed"
+        android:title="@string/active_led"
+        android:icon="@drawable/ic_lightbulb_24dp" />
+    <item
+        android:id="@+id/standbyLed"
+        android:title="@string/standby_led"
+        android:icon="@drawable/ic_lightbulb_24dp" />
+    <item
+        android:id="@+id/reboot"
+        android:title="@string/reboot"
+        android:icon="@drawable/ic_restart_24dp" />
+</menu>

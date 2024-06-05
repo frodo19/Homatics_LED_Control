@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_usb_debugging_first">Aktiviere zuerst das USB-Debugging in den Entwickleroptionen.</string>
+    <string name="home">Startseite</string>
+    <string name="description_home">Wichtige Informationen:\n\n1. An der LED darf in den Android-Systemeinstellungen nichts geändert werden, da sie sich sonst abnormal verhält.\n2. Nach jeder Änderung an der LED des Geräts ist ein Neustart erforderlich.</string>
+    <string name="description_active_led">Hier können die LED-Einstellungen vorgenommen werden, wenn das Gerät aktiv ist.</string>
+    <string name="description_standby_led">Hier können die LED-Einstellungen vorgenommen werden, wenn sich das Gerät im Standby-Modus befindet.</string>
+    <string name="description_reboot">Nachdem die Einstellungen an der LED vorgenommen wurden, diese Taste drücken, um das Gerät neu zu starten.</string>
+    <string name="led_color">LED-Farbe</string>
+    <string name="led_brightness">LED-Helligkeit</string>
+    <string name="reboot">Neustart</string>
+    <string name="active_led">Aktive LED</string>
+    <string name="standby_led">Standby LED</string>
+    <string name="cyan">Türkis</string>
+    <string name="red">Rot</string>
+    <string name="blue">Blau</string>
+    <string name="green">Grün</string>
+    <string name="purple">Lila</string>
+    <string name="select_led_color">LED-Farbe wählen</string>
+    <string name="select_led_on_off">LED ein oder ausschalten</string>
+    <string name="select_led_brightness">LED-Helligkeit auswählen</string>
+    <string name="led_is_now_set_to_purple_led">Die LED ist jetzt auf Lila eingestellt.</string>
+    <string name="led_is_now_set_to_green_led">Die LED ist jetzt auf Grün eingestellt.</string>
+    <string name="led_is_now_set_to_blue_led">Die LED ist jetzt auf Blau eingestellt.</string>
+    <string name="led_is_now_set_to_red_led">Die LED ist jetzt auf Rot eingestellt.</string>
+    <string name="led_is_now_set_to_cyan_led">Die LED ist jetzt auf Türkis eingestellt.</string>
+    <string name="led_is_now_off">Die LED ist aus.</string>
+    <string name="led_is_now_on">Die LED ist an.</string>
+    <string name="the_device_will_now_restart">Das Gerät wird nun neu gestartet.</string>
+    <string name="brightness_of_led_has_been_set_to">Die Helligkeit der LED wurde eingestellt auf: %1$d</string>
+    <string name="on">Ein</string>
+    <string name="off">Aus</string>
+</resources>
