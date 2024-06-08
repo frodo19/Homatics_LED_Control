@@ -3,9 +3,9 @@
     <string name="app_name" translatable="false" >Homatics LED Control</string>
     <string name="led" translatable="false" >LED</string>
     <string name="control" translatable="false" >Control</string>
-    <string name="enable_usb_debugging_first">Engedélyezd az USB debugging módot először, a fejlesztői beállításokban.</string>
-    <string name="home">Home</string>
-    <string name="description_home">Fontos:\n\n1. Semmit sem szabad módosítani a LED-beállításban az Android beállításaiban, különben rendellenesen fog működni.\n2. Az eszköz LED-ek minden változtatása után újra kell indítani az eszközt.</string>
+    <string name="enable_usb_debugging_first">Először engedélyezd az USB debugging módot, a fejlesztői beállításokban.</string>
+    <string name="home">Leírás</string>
+    <string name="description_home">Fontos:\n\n1. Semmit sem szabad módosítani a LED-beállításban az Android beállításokban, különben rendellenesen fog működni.\n2. A LED-ek minden beállításának változtatása után, újra kell indítani az eszközt.</string>
     <string name="description_active_led">A LED-ek beállításait itt lehet elvégezni, a készülék aktív módjához.</string>
     <string name="description_standby_led">A LED-ek beállításait itt lehet elvégezni, a készülék készenléti módjához.</string>
     <string name="description_reboot">Miután elvégezted a beállításokat a LED-eken, nyomd meg ezt a gombot a készülék újraindításához.</string>
@@ -14,22 +14,22 @@
     <string name="reboot">Újraindítás</string>
     <string name="active_led">Aktív LED</string>
     <string name="standby_led">Alvó LED</string>
-    <string name="cyan">Cíán</string>
-    <string name="red">Piros</string>
-    <string name="blue">Kék</string>
+    <string name="cyan">Kékeszöld</string>
+    <string name="red">Vörös</string>
+    <string name="blue">Sötéték</string>
     <string name="green">Zöld</string>
     <string name="purple">Lila</string>
-    <string name="select_led_color">LED szín kiválasztás</string>
+    <string name="select_led_color">LED szín kiválasztása</string>
     <string name="select_led_on_off">LED be vagy ki</string>
     <string name="select_led_brightness">LED fényerő</string>
     <string name="led_is_now_set_to_purple_led">>A LED most lila.</string>
     <string name="led_is_now_set_to_green_led">A LED most zöld.</string>
-    <string name="led_is_now_set_to_blue_led">A LED most kék.</string>
-    <string name="led_is_now_set_to_red_led">A LED most piros.</string>
-    <string name="led_is_now_set_to_cyan_led">A LED most cián.</string>
+    <string name="led_is_now_set_to_blue_led">A LED most sötétkék.</string>
+    <string name="led_is_now_set_to_red_led">A LED most vörös.</string>
+    <string name="led_is_now_set_to_cyan_led">A LED most kékeszöld.</string>
     <string name="led_is_now_off">A LED most ki van kapcsolva.</string>
     <string name="led_is_now_on">A LED most be van kapcsolva.</string>
-    <string name="the_device_will_now_restart">Az eszköz újraindul most.</string>
+    <string name="the_device_will_now_restart">Az eszköz most újraindul.</string>
     <string name="brightness_of_led_has_been_set_to">A LED fényereje beállítva %1$d</string>
     <string name="on">Be</string>
     <string name="off">Ki</string>
