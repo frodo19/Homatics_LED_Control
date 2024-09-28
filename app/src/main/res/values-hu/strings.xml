@@ -22,7 +22,7 @@
     <string name="select_led_color">LED szín kiválasztása</string>
     <string name="select_led_on_off">LED be vagy ki</string>
     <string name="select_led_brightness">LED fényerő</string>
-    <string name="led_is_now_set_to_purple_led">>A LED most lila.</string>
+    <string name="led_is_now_set_to_purple_led">>A LED most lila színű.</string>
     <string name="led_is_now_set_to_green_led">A LED most zöld.</string>
     <string name="led_is_now_set_to_blue_led">A LED most sötétkék.</string>
     <string name="led_is_now_set_to_red_led">A LED most vörös.</string>
